@@ -1,6 +1,7 @@
 package com.fengxuechao.example.application;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 
 /**
  * AppInfo 配置信息
@@ -8,6 +9,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  * @author fengxuechao
  * @date 2020/5/11
  */
+@RefreshScope
 @ConfigurationProperties(prefix = "app.info")
 public class AppInfoProperties {
 
