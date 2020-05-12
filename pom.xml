@@ -12,6 +12,7 @@
 
     <modules>
         <module>application-apollo</module>
+        <module>application-nacos</module>
     </modules>
 
 </project>

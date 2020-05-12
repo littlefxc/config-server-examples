@@ -12,10 +12,10 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
  */
 @EnableConfigurationProperties(AppInfoProperties.class)
 @SpringBootApplication
-public class Application {
+public class ApplicationApollo {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(ApplicationApollo.class, args);
     }
 
 }

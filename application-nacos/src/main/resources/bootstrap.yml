@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: application-nacos
+  profiles:
+    active: dev
+  cloud:
+    consul:
+      host: 192.168.213.13
+      discovery:
+        health-check-critical-timeout: 30s
+        prefer-ip-address: true
+        ip-address: 192.168.200.19
+      config:
+        format: files
+        profile-separator: '-'
