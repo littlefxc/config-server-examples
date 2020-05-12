@@ -15,7 +15,7 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 public class ApplicationNacos {
 
     public static void main(String[] args) {
-        SpringApplication.run(ApplicationApollo.class, args);
+        SpringApplication.run(ApplicationNacos.class, args);
     }
 
 }
