@@ -11,7 +11,7 @@
     <description>Demo project for Spring Boot</description>
 
     <modules>
-        <module>application</module>
+        <module>application-apollo</module>
     </modules>
 
 </project>

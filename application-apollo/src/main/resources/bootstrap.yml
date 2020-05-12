@@ -1,6 +1,6 @@
 spring:
   application:
-    name: application
+    name: application-apollo
   profiles:
     active: dev
   cloud:

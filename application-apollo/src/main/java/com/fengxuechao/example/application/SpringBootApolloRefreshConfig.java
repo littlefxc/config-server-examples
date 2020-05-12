@@ -22,9 +22,6 @@ public class SpringBootApolloRefreshConfig {
     private AppInfoProperties appInfoProperties;
 
     @Autowired
-    private RefreshScope refreshScope;
-
-    @Autowired
     private ApplicationContext applicationContext;
 
     @ApolloConfigChangeListener
