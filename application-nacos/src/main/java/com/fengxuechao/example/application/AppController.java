@@ -14,8 +14,16 @@ public class AppController {
     @Autowired
     private AppInfoProperties appInfoProperties;
 
+    @Autowired
+    private OtherInfoProperties otherInfoProperties;
+
     @RequestMapping("/app/info")
-    public AppInfoProperties hello() {
+    public AppInfoProperties getAppInfoProperties() {
         return appInfoProperties;
+    }
+
+    @RequestMapping("/other/info")
+    public OtherInfoProperties getOtherInfoProperties() {
+        return otherInfoProperties;
     }
 }

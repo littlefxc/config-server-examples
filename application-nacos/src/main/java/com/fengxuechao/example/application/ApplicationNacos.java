@@ -10,7 +10,7 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
  * @author fengxuechao
  * @date 2020/5/11
  */
-@EnableConfigurationProperties(AppInfoProperties.class)
+@EnableConfigurationProperties({AppInfoProperties.class, OtherInfoProperties.class})
 @SpringBootApplication
 public class ApplicationNacos {
 
