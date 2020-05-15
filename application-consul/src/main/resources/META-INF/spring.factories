@@ -1,0 +1,5 @@
+#org.springframework.boot.env.EnvironmentPostProcessor=\
+#com.fengxuechao.example.application.ConfigFileVersionApplicationListener
+
+org.springframework.cloud.bootstrap.BootstrapConfiguration=\
+com.fengxuechao.example.application.ConsulConfigVersionAutoConfig

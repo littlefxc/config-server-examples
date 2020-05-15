@@ -1,0 +1,27 @@
+management:
+  security:
+    enabled: false
+spring:
+  application:
+    name: application-consul
+  profiles:
+    active: dev
+    version: 3
+  cloud:
+    consul:
+      host: 192.168.213.13
+      discovery:
+        health-check-critical-timeout: 30s
+        prefer-ip-address: true
+        ip-address: 192.168.24.90
+      config:
+        enabled: true
+        format: files
+        profile-separator: '-'
+
+info:
+  application: ${spring.application.name}
+  version: 0.0.1-SNAPSHOT
+  profiles: ${spring.profiles.active}
+  from: local
+  description: '从应用本地 bootstrap.yml 加载'

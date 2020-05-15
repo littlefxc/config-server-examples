@@ -13,6 +13,7 @@
     <modules>
         <module>application-apollo</module>
         <module>application-nacos</module>
+        <module>application-consul</module>
     </modules>
 
 </project>
